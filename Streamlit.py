@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 from Recommender import News_Outlet_Recommender
 
