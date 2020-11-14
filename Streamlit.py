@@ -103,8 +103,10 @@ cars = st.slider('        ',0, 100 , 50, format="%d percent")
 st.write("You're ", cars, '%', 'interested in reading about hobbies.')
 
 
-outlet_df = pd.read_csv('outlet_df.csv', index_col = 0 )
-#st.dataframe(df)
+#outlet_df = pd.read_csv('outlet_df.csv', index_col = 0 )
+#outlet_df.to_pickle = ('outlet_df.pickle')
+outlet_df = pd.read_pickle('outlet_df.pickle')
+#st.dataframe(outlet_df)
 
 recommendation = News_Outlet_Recommender(outlet_df, covid/50, home/50, us_politics/50, global_politics/50, economy/50, social/50, business/50, personal/50, cars/50)
 
