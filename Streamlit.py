@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
+#from sklearn.metrics.pairwise import cosine_similarity
 from Recommender import News_Outlet_Recommender
 
 #style rendering through HTML
