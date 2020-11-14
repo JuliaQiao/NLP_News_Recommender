@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-outlet_df = pd.read_csv('/Users/juliaqiao/Documents/Metis/NLP_News_Recommender/outlet_df.csv', index_col = 0)
+#outlet_df = pd.read_pickle('outlet_df.pickle')
 
 def News_Outlet_Recommender(outlet_df, Covid = 1, Staying_at_Home = 1, US_Politics = 1, Global_Politics = 1, Global_Economy = 1, Social_Issues = 1, Business = 1, Personal_Development =1, Hobbies=1):
 
