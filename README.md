@@ -1,4 +1,4 @@
-# NLP News Recommender
+# NLP News Recommender [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/juliaqiao/nlp_news_recommender/main/Streamlit.py)
 ## Objective:
 
 Create an interest-based news subscription recommender system through natural language processing and unsupervised topic modeling.
