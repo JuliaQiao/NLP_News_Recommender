@@ -58,5 +58,7 @@ Measured topic vectors for each news outlet against user generated vector from r
 
 ## Result:
 
+Full demo here: https://youtu.be/JxxYgsWlS4k
+
 ![](Visuals/recommender.png)
 
