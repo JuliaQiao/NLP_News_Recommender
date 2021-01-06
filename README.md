@@ -12,6 +12,7 @@ My solution was to build an app that could recommend a digital news outlet to su
 ## **Tools and Approach**: 
 
 **Scraping**
+See: [1_Scraping_Tweets.ipynb](https://github.com/JuliaQiao/NLP_News_Recommender/blob/main/1_Scraping_Tweets.ipynb)
 
 To collect headlines and article summaries from paywalled news sources within the 2 week time constraint, utilized the news sources’ tweets. News outlets aim to build their brand and convert audiences to their articles via the platform, so I felt that it was safe to assume that they would distill their best articles into each tweet (as headlines and article summaries) and present a diverse array of the articles that they believe will best promote their brand--thus, the tweets would serve as condensed samples of each news outlets’ article content. 
 
@@ -20,6 +21,7 @@ To collect headlines and article summaries from paywalled news sources within th
   - I collected 200k tweets total, 20k each from the main accounts of the top 10 subscription based english-speaking news outlets: New York Times, Wall Street Journal, The Washington Post, The Atlantic, The Economist, The Financial Times, Business Insider, Medium, Wired, and the New Yorker.
 
 **NLP**
+See: [2_Main Notebook_Processing_Topic Modeling_Recommender.ipynb](https://github.com/JuliaQiao/NLP_News_Recommender/blob/main/2_Main%20Notebook_Processing_Topic%20Modeling_Recommender.ipynb)
 
 - Regex:
 
@@ -58,7 +60,7 @@ Measured topic vectors for each news outlet against user generated vector from r
 
 ## Result:
 
-Full demo here: https://youtu.be/JxxYgsWlS4k
+Full demo [here](https://youtu.be/JxxYgsWlS4k)
 
 ![](Visuals/recommender.png)
 
