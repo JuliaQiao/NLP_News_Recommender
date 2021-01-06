@@ -1,4 +1,4 @@
-# NLP News Recommender
+# What's New(s)? a content based news subscription recommender app
 ## Objective:
 
 Create an interest-based news subscription recommender system through natural language processing and unsupervised topic modeling.
